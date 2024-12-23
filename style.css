@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/bg.jpg);
+    background-position: center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+
+}
+nav button{
+    position: relative;
+    z-index: 10;
+
+}
+.hero {
+    font-family: sans-serif;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero> :nth-child(1){
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.btn{
+    padding:3px 8px;
+    font-weight: 500;
+    background-color:whitesmoke;
+    background-color: rgba(248,243,243,0.342);
+    color: white;
+    border: 1px solid black;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.btn-red-sm{
+background-color: red;
+color: aliceblue;
+}
+.btn-red{
+    background-color: red;
+    color: aliceblue;
+    padding: 3px 54px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    }
+    .main input{
+        padding: 3px 4px;
+        font-size: 20px;
+        color: aliceblue;
+        border-radius: 5px;
+       background-color:  rgba(23,23,23,0.2);
+       border: 1px solid rgba(23,23,23,0.5);
+       font-family: sans-serif;
+       
+       
+    }
+    .first{
+        display: flex;
+        justify-content: center;
+        max-width: 70vw;
+        margin: auto;
+        color: aliceblue;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    
+    .image img{
+        width: 50vww;
+    }
+   section.first > div :first-child{
+        font-size: 48px;
+        font-weight: bolder;
+
+    }
+
+    section.first > div :nth-child(2){
+        font-size: 28px;
+        font-weight: bolder;
+        
+    }
